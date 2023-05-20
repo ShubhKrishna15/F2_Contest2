@@ -1,0 +1,79 @@
+*{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+   
+    font-family: 'Inter';
+}
+.container{
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h4{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#pro{
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    width: 200px;
+    margin-bottom: 40px;
+}
+button {
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+.addheader{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.labelcont{
+    display: flex;
+    flex-direction: row;
+    width: 76%;
+    
+    justify-content: space-between;
+    gap: 10px;
+}
+.inputcont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.inputcont input{
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+#pro option{
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.lala{
+    margin-top: 10px;
+    border: 0.5px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+#Display-contain{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
